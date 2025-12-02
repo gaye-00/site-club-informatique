@@ -6,6 +6,10 @@ import MemoriesGallery from "../components/home/MemoriesGallery";
 import WhyJoinSection from "../components/home/WhyJoinSection";
 import TechStackSlider from "../components/home/TechStackSlider";
 import ChallengesSection from "../components/home/ChallengesSection";
+import TestimonialsCarousel from "../components/home/TestimonialsCarousel";
+import CallToActionSection from "../components/home/CallToActionSection";
+import PartnersSection from "../components/home/PartnersSection";
+import FAQAccordion from "../components/home/FAQAccordion";
 
 const HomePage: React.FC = () => {
   return (
@@ -32,16 +36,16 @@ const HomePage: React.FC = () => {
       <ChallengesSection />
 
       {/* Témoignages */}
-      {/* <TestimonialsCarousel /> */}
+      <TestimonialsCarousel />
 
       {/* Call to Action */}
-      {/* <CallToActionSection /> */}
+      <CallToActionSection />
 
       {/* Partenaires */}
-      {/* <PartnersSection /> */}
+      <PartnersSection />
 
       {/* FAQ */}
-      {/* <FAQAccordion /> */}
+      <FAQAccordion />
     </div>
   );
 };

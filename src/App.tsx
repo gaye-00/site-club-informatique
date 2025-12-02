@@ -4,6 +4,7 @@ import Layout from "./components/common/Layout/Layout";
 import HomePage from "./pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EvenementPage from "./pages/EvenementPage";
+import ScrollToTopButton from "./components/common/ScrollToTopButton";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,9 @@ function App() {
           <Route path="/evenement" element={<EvenementPage />} />
         </Routes>
       </Layout>
+
+      {/* Bouton Scroll To Top Global - Visible partout dans l'app */}
+      <ScrollToTopButton />
     </BrowserRouter>
   );
 }

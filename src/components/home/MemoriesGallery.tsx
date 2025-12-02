@@ -3,7 +3,6 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
-  Filter,
   Image as ImageIcon,
   Calendar,
   Download,

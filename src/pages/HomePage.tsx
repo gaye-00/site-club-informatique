@@ -10,6 +10,7 @@ import TestimonialsCarousel from "../components/home/TestimonialsCarousel";
 import CallToActionSection from "../components/home/CallToActionSection";
 import PartnersSection from "../components/home/PartnersSection";
 import FAQAccordion from "../components/home/FAQAccordion";
+import HolographicSeparator from "../components/home/HolographicSeparator";
 
 const HomePage: React.FC = () => {
   return (
@@ -28,9 +29,14 @@ const HomePage: React.FC = () => {
 
       {/* Pourquoi rejoindre */}
       <WhyJoinSection />
+      <HolographicSeparator />
 
       {/* Défilement de logos */}
       <TechStackSlider />
+
+      {/* <InteractiveSkillTree /> */}
+      {/* <CodeActivityStream /> */}
+      {/* <HolographicSeparator /> */}
 
       {/* Défis du club */}
       <ChallengesSection />

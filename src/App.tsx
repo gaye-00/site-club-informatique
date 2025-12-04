@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EvenementPage from "./pages/EvenementPage";
 import ScrollToTopButton from "./components/common/ScrollToTopButton";
+import SouvenirPage from "./pages/SouvenirPage";
+import AProposPage from "./pages/AProposPage";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,6 +31,8 @@ function App() {
           {/* <HomePage /> */}
           <Route path="/" element={<HomePage />} />
           <Route path="/evenement" element={<EvenementPage />} />
+          <Route path="/souvenir" element={<SouvenirPage />} />
+          <Route path="/apropos" element={<AProposPage />} />
         </Routes>
       </Layout>
 

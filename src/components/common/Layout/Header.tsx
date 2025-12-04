@@ -10,8 +10,8 @@ const Header = () => {
   const navLinks = [
     { name: "Accueil", icon: Code2, href: "/" },
     { name: "Evenements", icon: Calendar, href: "/evenement" },
-    { name: "Souvenir", icon: ImageIcon, href: "#souvenir" },
-    { name: "A Propos", icon: Info, href: "#apropos" },
+    { name: "Souvenir", icon: ImageIcon, href: "/souvenir" },
+    { name: "A Propos", icon: Info, href: "/apropos" },
   ];
 
   useEffect(() => {

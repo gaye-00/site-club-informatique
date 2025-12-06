@@ -12,7 +12,7 @@ export const presidentsData = [
   {
     id: 9,
     name: "Prochain Président",
-    mandate: "2024-2025",
+    mandate: "2025-2026",
     level: "???",
     photo: "/src/assets/presidents/pasDePhoto.jpg",
     status: "future",
@@ -23,15 +23,16 @@ export const presidentsData = [
   {
     id: 8,
     name: "Abdoulaye Gaye",
-    mandate: "2023-2024",
+    mandate: "2024-2025",
     level: "M1",
     photo: "/src/assets/presidents/Abdoulaye-Gaye.jpg",
     status: "current",
     quote: "Innovation et excellence, notre devise !",
     achievements: [
-      "Modernisation du site web",
+      "Avec Abdoulaye, un nouveau club a vue le jour",
       "Digitalisation des processus",
       "Expansion des partenariats",
+      "De nouveaux evénements",
     ],
     color: "from-primary-500 to-accent-500",
   },
@@ -43,11 +44,7 @@ export const presidentsData = [
     photo: "/src/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "Ensemble, nous sommes plus forts",
-    achievements: [
-      "Organisation d'événements majeurs",
-      "Renforcement de la communauté",
-      "Initiatives de formation",
-    ],
+    achievements: ["Renforcement de la communauté", "Initiatives de formation"],
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -134,9 +131,9 @@ export const presidentsData = [
     status: "past",
     quote: "Le début d'une grande aventure",
     achievements: [
-      "Fondation des bases du club",
-      "Premier événement majeur",
-      "Création de la communauté",
+      "Refonte des bases du club",
+      "Renforcement de la communauté",
+      "Initiatives de formation",
     ],
     color: "from-gray-500 to-slate-600",
   },

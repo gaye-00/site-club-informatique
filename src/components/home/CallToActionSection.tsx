@@ -36,13 +36,13 @@ const CallToActionSection: React.FC = () => {
     },
     {
       icon: Trophy,
-      value: "50+",
+      value: "💻+",
       label: "Projets réalisés",
       gradient: "from-accent-600 to-primary-600",
     },
     {
       icon: Calendar,
-      value: "30+",
+      value: "10+",
       label: "Événements/an",
       gradient: "from-primary-600 to-accent-500",
     },
@@ -106,7 +106,7 @@ const CallToActionSection: React.FC = () => {
                       Prêt à transformer
                     </span>
                     <span className="block bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                      votre passion en carrière ? 🚀
+                      votre passion en carrière ?
                     </span>
                   </h2>
 
@@ -145,7 +145,15 @@ const CallToActionSection: React.FC = () => {
 
                     <button className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/5 hover:bg-white/10 backdrop-blur-xl border border-white/10 hover:border-primary-500/50 text-white font-bold rounded-lg sm:rounded-xl text-sm sm:text-base transform hover:scale-105 active:scale-95 transition-all duration-200 flex items-center justify-center space-x-2">
                       <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-primary-400" />
-                      <span>Voir les événements</span>
+                      <span>
+                        <a
+                          href="https://wa.me/221774952024"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Contactez-nous
+                        </a>{" "}
+                      </span>
                     </button>
                   </div>
 
@@ -199,7 +207,7 @@ const CallToActionSection: React.FC = () => {
                           <div className="text-sm font-black text-white">
                             Événements
                           </div>
-                          <div className="text-xs text-gray-400">30+/an</div>
+                          <div className="text-xs text-gray-400">10+/an</div>
                         </div>
                       </div>
                       <div className="flex items-center justify-between">
@@ -312,7 +320,7 @@ const CallToActionSection: React.FC = () => {
             <p>
               Adhésion gratuite pour tous les étudiants de l'UASZ.{" "}
               <span className="text-primary-400 hover:text-primary-300 cursor-pointer">
-                En savoir plus →
+                <a href="/evenement">En savoir plus →</a>
               </span>
             </p>
           </div>

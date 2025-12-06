@@ -38,7 +38,7 @@ const FAQAccordion: React.FC = () => {
       id: 2,
       question: "Quels types d'événements organisez-vous ?",
       answer:
-        "Nous organisons des hackathons, workshops techniques, conférences avec des professionnels, code challenges, projets collaboratifs, et des sessions de mentorat. En moyenne, nous avons 30+ événements par an couvrant divers domaines tech : développement web/mobile, IA, cybersécurité, DevOps, etc.",
+        "Nous organisons des hackathons, workshops techniques, conférences avec des professionnels, code challenges, projets collaboratifs, et des sessions de mentorat. En moyenne, nous avons 10+ événements par an couvrant divers domaines tech : développement web/mobile, IA, porte ouverture, Soirée cinema, etc.",
       icon: Calendar,
       category: "Événements",
     },
@@ -55,7 +55,7 @@ const FAQAccordion: React.FC = () => {
       id: 4,
       question: "Quels sont les avantages de rejoindre le club ?",
       answer:
-        "Les avantages incluent : formations gratuites sur les technologies modernes, accès aux événements exclusifs, mentorat par des professionnels, opportunités de stage et d'emploi, projets réels pour votre portfolio, réseau de passionnés tech, et certificats de participation. C'est une véritable rampe de lancement pour votre carrière !",
+        "Les avantages incluent : formations gratuites sur les technologies modernes, accès aux événements exclusifs, mentorat par des professionnels, projets réels pour votre portfolio, réseau de passionnés tech, et certificats de participation. C'est une véritable rampe de lancement pour votre carrière !",
       icon: Award,
       category: "Avantages",
     },
@@ -87,7 +87,7 @@ const FAQAccordion: React.FC = () => {
       id: 8,
       question: "Y a-t-il des frais d'adhésion ou de participation ?",
       answer:
-        "L'adhésion au club est 100% gratuite pour tous les étudiants de l'UASZ. Tous nos événements, formations, et ressources sont également gratuits. Notre mission est de rendre la technologie accessible à tous, sans barrière financière. Certains événements spéciaux peuvent nécessiter une inscription limitée.",
+        "L'adhésion au club est 100% gratuite pour tous les étudiants de l'UASZ. Nos événements, formations également peuvent etre gratuits. Notre mission est de rendre la technologie accessible à tous, sans barrière financière. Certains événements spéciaux peuvent nécessiter une inscription limitée.",
       icon: Sparkles,
       category: "Frais",
     },

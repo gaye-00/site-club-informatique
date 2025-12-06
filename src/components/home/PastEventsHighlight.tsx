@@ -46,7 +46,7 @@ const events: Event[] = [
     id: 1,
     title: "Journée Portes Ouvertes",
     subtitle: "1ère Édition",
-    date: "10 Novembre 2024",
+    date: "26 Avril 2025",
     location: "Campus UASZ",
     participants: "150+ participants",
     description:
@@ -61,11 +61,11 @@ const events: Event[] = [
     id: 2,
     title: "Journée Portes Ouvertes",
     subtitle: "2ème Édition",
-    date: "08 Novembre 2024",
+    date: "08 Novembre 2025",
     location: "Campus UASZ",
     participants: "200+ participants",
     description:
-      "Deuxième édition encore plus grande ! Hackathon, présentations de projets, conférences tech et rencontres avec les anciens membres.",
+      "Deuxième édition encore plus grande ! Des interactions en direct, du maitenance hardware, et des jeux gagnants.",
     images: [portes2_1, portes2_2, portes2_3],
     badge: "Événement Phare 🌟",
     color: "from-primary-500 to-accent-500",
@@ -76,11 +76,11 @@ const events: Event[] = [
     id: 3,
     title: "Journée Maintenance",
     subtitle: "1ère Édition EDI",
-    date: "11 Novembre 2024",
-    location: "Salle EDI",
+    date: "28 Juin 2025",
+    location: "Salle ST-1 150",
     participants: "80+ participants",
     description:
-      "Formation intensive sur la maintenance des systèmes informatiques, dépannage hardware et software, bonnes pratiques DevOps.",
+      "Formation intensive sur la maintenance des systèmes informatiques, dépannage hardware et software, bonnes pratiques.",
     images: [maintenance1, maintenance2, portes1_2],
     badge: "Formation 🔧",
     color: "from-orange-500 to-red-600",
@@ -95,7 +95,7 @@ const PastEventsHighlight = () => {
 
   // Navigation vers la page événements
   const handleNavigateToEvents = () => {
-    navigate("/evenements");
+    navigate("/evenement");
   };
 
   return (

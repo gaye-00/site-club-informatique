@@ -276,8 +276,9 @@ const StatsShowcase: React.FC<StatsShowcaseProps> = ({ memories }) => {
           <p className="text-2xl font-black text-gray-900 mb-6">
             Et ce n'est que le{" "}
             <span className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
-              début ! 🚀
+              début !
             </span>
+            🚀
           </p>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Chaque nouvel événement ajoute de nouveaux souvenirs à notre

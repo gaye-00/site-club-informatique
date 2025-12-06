@@ -55,6 +55,8 @@ const AProposHero: React.FC = () => {
             key={i}
             style={{
               y: useTransform(scrollY, [0, 500], [0, (i + 1) * 50]),
+              top: `${20 + i * 12}%`,
+              left: `${15 + i * 10}%`,
             }}
             animate={{
               y: [0, -20, 0],
@@ -67,10 +69,6 @@ const AProposHero: React.FC = () => {
               delay: i * 0.5,
             }}
             className="absolute text-white/20"
-            style={{
-              top: `${20 + i * 12}%`,
-              left: `${15 + i * 10}%`,
-            }}
           >
             <Icon className="w-16 h-16 lg:w-24 lg:h-24" />
           </motion.div>
@@ -131,7 +129,7 @@ const AProposHero: React.FC = () => {
                 backgroundSize: "200% 200%",
               }}
             >
-              UASZ 🚀
+              UASZ
             </motion.span>
           </motion.h1>
 

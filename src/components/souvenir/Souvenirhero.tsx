@@ -116,8 +116,9 @@ const SouvenirHero: React.FC<SouvenirHeroProps> = ({ totalPhotos }) => {
           >
             <span className="block text-gray-900 mb-3">Revivez les</span>
             <span className="block bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-              moments magiques ✨
+              moments magiques
             </span>
+            ✨
           </motion.h1>
 
           {/* Sous-titre */}

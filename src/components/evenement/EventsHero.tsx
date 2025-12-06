@@ -14,7 +14,7 @@ const EventsHero: React.FC = () => {
   const stats = [
     {
       icon: Calendar,
-      value: "30+",
+      value: "10+",
       label: "Événements/an",
       gradient: "from-primary-500 to-accent-500",
     },
@@ -124,8 +124,12 @@ const EventsHero: React.FC = () => {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight"
           >
             <span className="block text-gray-900 mb-2">Participez à nos</span>
-            <span className="block bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 bg-clip-text text-transparent animate-gradient">
+            {/* < className="block bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 bg-clip-text text-transparent animate-gradient">
               événements tech ! 🚀
+            </span> */}
+            <span className="block bg-gradient-to-r from-primary-600 via-accent-500 to-primary-600 bg-clip-text text-transparent animate-gradient">
+              événements tech !
+              <span className="inline-block text-black">🚀</span>
             </span>
           </motion.h1>
 

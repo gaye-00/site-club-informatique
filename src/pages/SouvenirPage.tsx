@@ -25,7 +25,7 @@ const memoriesData: Memory[] = [
     id: 1,
     event: "Journées Portes Ouvertes - Jour 1",
     category: "Événement",
-    date: "10 Novembre 2024",
+    date: "26 Avril  2025",
     color: "from-blue-500 to-cyan-500",
     images: [
       "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",
@@ -46,7 +46,7 @@ const memoriesData: Memory[] = [
     id: 2,
     event: "Journées Portes Ouvertes - Jour 2",
     category: "Événement",
-    date: "8 Novembre 2024",
+    date: "08 Novembre 2025",
     color: "from-purple-500 to-pink-500",
     images: [
       "/src/assets/journee-portes-ouvertes-2eme-journee/20251108_125730.jpg",
@@ -65,7 +65,7 @@ const memoriesData: Memory[] = [
     id: 3,
     event: "Journée Maintenance",
     category: "Workshop",
-    date: "11 Novembre 2024",
+    date: "28 Juin 2025",
     color: "from-orange-500 to-red-500",
     images: [
       "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0001.jpg",
@@ -82,7 +82,7 @@ const memoriesData: Memory[] = [
     id: 4,
     event: "Formation Photoshop",
     category: "Formation",
-    date: "29 Novembre 2024",
+    date: "30 Novembre 2025",
     color: "from-green-500 to-emerald-500",
     images: [
       "/src/assets/Formation_Photoshop/20251129_183442.jpg",

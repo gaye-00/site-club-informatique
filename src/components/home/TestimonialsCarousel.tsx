@@ -263,7 +263,7 @@ const TestimonialsCarousel: React.FC = () => {
             className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto font-medium italic"
           >
             Des histoires inspirantes de membres qui ont transformé leur passion
-            en carrière
+            en une pratique solide.
           </motion.p>
 
           {/* Decorative Line */}
@@ -382,13 +382,14 @@ const TestimonialsCarousel: React.FC = () => {
                 },
                 {
                   icon: Code,
-                  value: "50+",
+                  // value: "❤️‍🔥❤️+",
+                  value: "💻+",
                   label: "Projets Réalisés",
                   color: "text-purple-600",
                 },
                 {
                   icon: Zap,
-                  value: "30+",
+                  value: "10+",
                   label: "Événements/An",
                   color: "text-orange-600",
                 },

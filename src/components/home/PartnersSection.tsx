@@ -15,7 +15,7 @@ const PartnersSection: React.FC = () => {
   const partners: Partner[] = [
     {
       id: 1,
-      name: "Université Cheikh Anta Diop",
+      name: "Université Assane Seck Ziguinchor",
       logo: "🎓",
       type: "Université",
       color: "#1E40AF",
@@ -29,59 +29,52 @@ const PartnersSection: React.FC = () => {
     },
     {
       id: 3,
-      name: "Sonatel Academy",
-      logo: "📱",
+      name: "Diao Services",
+      logo: "💻📱",
       type: "Entreprise",
       color: "#0066CC",
     },
     {
       id: 4,
-      name: "Google Developers Group",
-      logo: "🔍",
-      type: "Organisation",
+      name: "Les professeurs de l'université",
+      logo: "👩‍🏫",
+      type: "Université",
       color: "#4285F4",
     },
     {
       id: 5,
-      name: "Microsoft Africa",
+      name: "Labo li3 UASZ",
       logo: "💻",
-      type: "Entreprise",
+      type: "Université",
       color: "#00A4EF",
     },
     {
       id: 6,
-      name: "African Development Bank",
-      logo: "🏦",
+      name: "AOF Ziguinchor",
+      logo: "🌍",
       type: "Institution",
       color: "#003B71",
     },
     {
       id: 7,
-      name: "Jokkolabs Dakar",
-      logo: "🚀",
-      type: "Organisation",
+      name: "Alpha Stands 78 323 29 60",
+      logo: "🏢",
+      type: "Entreprise",
       color: "#E74C3C",
     },
     {
       id: 8,
-      name: "Gaston Berger University",
-      logo: "🎓",
+      name: "Chez Korka 78 832 05 14",
+      logo: "🍲",
       type: "Université",
       color: "#2ECC71",
     },
     {
       id: 9,
-      name: "Senegal Digital 2025",
+      name: "UFR ST UASZ",
       logo: "🇸🇳",
-      type: "Institution",
+      type: "Université",
       color: "#27AE60",
-    },
-    {
-      id: 10,
-      name: "Campus France Sénégal",
-      logo: "🇫🇷",
-      type: "Institution",
-      color: "#0055A4",
     },
   ];
 
@@ -204,8 +197,8 @@ const PartnersSection: React.FC = () => {
           className="mt-12 flex flex-wrap items-center justify-center gap-6 lg:gap-12"
         >
           {[
-            { icon: Building2, value: "10+", label: "Partenaires" },
-            { icon: Handshake, value: "5+", label: "Collaborations" },
+            { icon: Building2, value: "💻+", label: "Partenaires" },
+            { icon: Handshake, value: "💻+", label: "Collaborations" },
             { icon: Award, value: "100%", label: "Engagement" },
           ].map((stat, index) => (
             <motion.div

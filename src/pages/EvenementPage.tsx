@@ -16,6 +16,7 @@ import EventsCTA from "../components/evenement/EventsCTA";
 import RoadmapVision from "../components/evenement/RoadmapVision";
 import ClubUniverse from "../components/evenement/ClubUniverse";
 import DataNexusStream from "../components/evenement/DataNexusStream";
+import TransitionGradient from "../components/evenement/TransitionGradient";
 
 // --- TYPES & DATA ---
 
@@ -43,10 +44,10 @@ interface Event {
 const eventsData: Event[] = [
   {
     id: 1,
-    title: "Journées Portes Ouvertes 2024",
+    title: "Journées Portes Ouvertes 2025",
     description:
       "L'événement phare de l'année ! Découverte des stands, présentations des projets étudiants, et immersion dans l'univers du Club Informatique.",
-    date: "8-10 Nov 2024",
+    date: "26-04 Avril 2025",
     location: "Campus UASZ",
     category: "Événement",
     participants: 200,
@@ -67,8 +68,8 @@ const eventsData: Event[] = [
     title: "Atelier Maintenance & Réseau",
     description:
       "Une journée technique dédiée à la maintenance hardware et à la configuration réseau. Démontage, nettoyage et optimisation des machines.",
-    date: "11 Nov 2024",
-    location: "Salle Info",
+    date: "28 Juin 2025",
+    location: "Salle ST-150-1",
     category: "Workshop",
     participants: 45,
     status: "Terminé",
@@ -86,10 +87,10 @@ const eventsData: Event[] = [
     title: "Masterclass Photoshop",
     description:
       "Formation intensive sur le design graphique. Création d'affiches, retouche photo et maîtrise des outils essentiels d'Adobe Photoshop.",
-    date: "29 Nov 2024",
-    location: "Labo Multimédia",
+    date: "30 Nov 2025",
+    location: "Salle Info 3",
     category: "Formation",
-    participants: 30,
+    participants: 25,
     status: "Terminé",
     color: "from-purple-500 to-pink-600",
     image: "/src/assets/Formation_Photoshop/20251129_183442.jpg",
@@ -101,14 +102,14 @@ const eventsData: Event[] = [
   },
   {
     id: 4,
-    title: "Bootcamp Dev Fullstack",
+    title: "Vacance informatique",
     description:
-      "Semaine intensive de code pour créer une application complète de A à Z. HTML, CSS, React et Node.js au programme.",
-    date: "Janvier 2025",
+      "Le club s'engage pour la communauté ! Des formations sont proposées durant les vacances scolaires.",
+    date: "Durant les vacaances",
     location: "Incubateur UASZ",
-    category: "Bootcamp",
-    participants: 25,
-    status: "À venir",
+    category: "Formation",
+    participants: 10,
+    status: "Terminé",
     color: "from-green-500 to-emerald-600",
     image: "/src/assets/Affiches-Evenements-Passers/bootcamp.png",
   },
@@ -116,8 +117,8 @@ const eventsData: Event[] = [
     id: 5,
     title: "Tech Solidaire",
     description:
-      "Le club s'engage pour la communauté ! Journée d'initiation à l'informatique pour les débutants et aide à la maintenance pour les étudiants.",
-    date: "Décembre 2024",
+      "Le club s'engage pour la communauté ! Journée ou des services sont offerts aux etudients comme l'installation de PC, activation office, etc",
+    date: "Novembre 2025",
     location: "Ziguinchor",
     category: "Vie du Club",
     participants: 100,
@@ -127,13 +128,13 @@ const eventsData: Event[] = [
   },
   {
     id: 6,
-    title: "The Débat : IA & Éthique",
+    title: "The Débat ",
     description:
-      "Grande conférence-débat sur l'impact de l'Intelligence Artificielle dans notre quotidien et nos études.",
-    date: "Février 2025",
-    location: "Amphithéâtre",
+      "Etudiants et etudiantes, peut on vraiment etre libres a l'universite ? Le club s'engage pour la communauté !",
+    date: "Juillet 2025",
+    location: "Place des nations",
     category: "Conférence",
-    status: "À venir",
+    status: "Terminé",
     color: "from-violet-600 to-indigo-600",
     image: "/src/assets/Affiches-Evenements-Passers/the_debat.png",
   },
@@ -151,13 +152,12 @@ const eventsData: Event[] = [
   },
   {
     id: 8,
-    title: "Bach Club Night",
-    description:
-      "Soirée d'intégration et de networking. L'occasion idéale pour rencontrer les anciens et les nouveaux membres.",
+    title: "Bach Club",
+    description: "Represente le symbole, le club s'engage pour la communauté !",
     date: "Mensuel",
-    location: "Cafétéria",
+    location: "Symbole CLUB",
     category: "Vie du Club",
-    status: "En cours",
+    status: "Terminé",
     color: "from-rose-500 to-red-500",
     image: "/src/assets/Affiches-Evenements-Passers/bach_cleub.png",
   },
@@ -202,6 +202,7 @@ export default function EvenementPage() {
           />
         )}
       </AnimatePresence>
+      <TransitionGradient />
       <EventTestimonials />
       <RoadmapVision />
       <ClubUniverse />

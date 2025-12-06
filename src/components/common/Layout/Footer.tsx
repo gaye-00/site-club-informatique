@@ -39,14 +39,17 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "Accueil", href: "#accueil" },
-    { name: "Événements", href: "#evenements" },
-    { name: "Souvenir", href: "#souvenir" },
-    { name: "À Propos", href: "#apropos" },
+    { name: "Accueil", href: "/" },
+    { name: "Événements", href: "/evenement" },
+    { name: "Souvenir", href: "/souvenir" },
+    { name: "À Propos", href: "/apropos" },
   ];
 
   const resources = [
-    { name: "Tutoriels", href: "#" },
+    {
+      name: "Tutoriels",
+      href: "https://www.youtube.com/@ClubinformatiqueUASZ",
+    },
     { name: "Documentation", href: "#" },
     { name: "Blog", href: "#" },
     { name: "FAQ", href: "#" },

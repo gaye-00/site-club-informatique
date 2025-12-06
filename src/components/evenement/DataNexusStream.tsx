@@ -6,20 +6,20 @@ import { Users, Code, CalendarCheck, Zap } from "lucide-react";
 const stats = [
   {
     icon: Users,
-    value: "800+",
+    value: "700+",
     label: "Membres Connectés",
     color: "text-cyan-400",
   },
   {
     icon: Code,
-    value: "24",
+    value: "??",
     label: "Projets Open Source",
     color: "text-purple-400",
   },
   {
     icon: CalendarCheck,
-    value: "45",
-    label: "Événements Réalisés (2024)",
+    value: "10+",
+    label: "Événements Réalisés (2025)",
     color: "text-emerald-400",
   },
   {

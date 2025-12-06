@@ -243,7 +243,7 @@ const TechStackSlider: React.FC = () => {
             // Texte en gris clair
             className="text-lg lg:text-xl text-gray-400 max-w-2xl mx-auto"
           >
-            Les langages, frameworks et outils que nous utilisons au quotidien
+            Les langages, frameworks et outils du monde tech.
           </motion.p>
         </motion.div>
 

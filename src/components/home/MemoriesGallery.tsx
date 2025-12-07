@@ -40,14 +40,14 @@ const photos: Photo[] = [
     src: portes1_1,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 2,
     src: portes1_2,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 3,
@@ -68,7 +68,7 @@ const photos: Photo[] = [
     src: portes1_3,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const photos: Photo[] = [
     src: portes1_4,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 8,
@@ -103,7 +103,7 @@ const photos: Photo[] = [
     src: portes1_5,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 11,
@@ -117,7 +117,7 @@ const photos: Photo[] = [
     src: portes1_6,
     category: "portes-ouvertes-1",
     title: "Journée Portes Ouvertes 1",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
   },
   {
     id: 13,

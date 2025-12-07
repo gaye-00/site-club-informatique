@@ -47,7 +47,7 @@ const eventsData: Event[] = [
     title: "Journées Portes Ouvertes 2025",
     description:
       "L'événement phare de l'année ! Découverte des stands, présentations des projets étudiants, et immersion dans l'univers du Club Informatique.",
-    date: "26-04 Avril 2025",
+    date: "31 Mai 2025",
     location: "Campus UASZ",
     category: "Événement",
     participants: 200,

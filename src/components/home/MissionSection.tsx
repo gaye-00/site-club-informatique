@@ -251,7 +251,7 @@ const MissionSection = () => {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t border-neutral-200">
                 {[
                   { value: "200+", label: "Membres" },
-                  { value: "50+", label: "Projets" },
+                  { value: "💻+", label: "Projets" },
                   { value: "30+", label: "Événements" },
                   { value: "100%", label: "Passion" },
                 ].map((stat, index) => (

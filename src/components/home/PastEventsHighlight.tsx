@@ -46,7 +46,7 @@ const events: Event[] = [
     id: 1,
     title: "Journée Portes Ouvertes",
     subtitle: "1ère Édition",
-    date: "26 Avril 2025",
+    date: "31 Mai 2025",
     location: "Campus UASZ",
     participants: "150+ participants",
     description:

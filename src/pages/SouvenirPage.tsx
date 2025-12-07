@@ -25,7 +25,7 @@ const memoriesData: Memory[] = [
     id: 1,
     event: "Journées Portes Ouvertes - Jour 1",
     category: "Événement",
-    date: "26 Avril  2025",
+    date: "31 Mai  2025",
     color: "from-blue-500 to-cyan-500",
     images: [
       "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",

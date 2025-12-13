@@ -73,7 +73,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* 🔝 PLACER ScrollToTop ICI - Juste après BrowserRouter */}
       <ScrollToTop />
 
       <Layout>

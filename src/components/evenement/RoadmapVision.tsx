@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { Rocket, Target, Cpu, Flag, Sparkles } from "lucide-react";
 
 const milestones = [

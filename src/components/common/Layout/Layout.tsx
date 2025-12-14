@@ -1,4 +1,5 @@
-import { ReactNode } from "react";
+// import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Header from "./Header";
 import Footer from "./Footer";

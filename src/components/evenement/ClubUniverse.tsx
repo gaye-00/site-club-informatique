@@ -1,14 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import { motion, useSpring, useTransform, useMotionValue } from "framer-motion";
-import {
-  Github,
-  Globe,
-  Code,
-  Database,
-  Server,
-  Terminal,
-  Share2,
-} from "lucide-react";
+import { Github, Globe, Code, Share2 } from "lucide-react";
 
 // Carte flottante individuelle
 const FloatingCard = ({

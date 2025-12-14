@@ -183,11 +183,7 @@ export default function EvenementPage() {
       {/* 2. Main Content */}
       <main className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 -mt-20 relative z-30">
         {/* Barre de Filtres */}
-        <EventsFilter
-          currentFilter={filter}
-          onFilterChange={setFilter}
-          counts={eventsData}
-        />
+        <EventsFilter currentFilter={filter} onFilterChange={setFilter} />
 
         {/* Grille des Événements */}
         <EventsGrid events={filteredEvents} onEventClick={setSelectedEvent} />

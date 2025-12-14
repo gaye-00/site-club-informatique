@@ -14,7 +14,7 @@
 //     name: "Prochain Président",
 //     mandate: "2025-2026",
 //     level: "???",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "future",
 //     quote: "L'avenir du club vous appartient...",
 //     achievements: ["À écrire ensemble"],
@@ -25,7 +25,7 @@
 //     name: "Abdoulaye Gaye",
 //     mandate: "2024-2025",
 //     level: "M1",
-//     photo: "/src/assets/presidents/Abdoulaye-Gaye.jpg",
+//     photo: "/assets/presidents/Abdoulaye-Gaye.jpg",
 //     status: "current",
 //     quote: "Innovation et excellence, notre devise !",
 //     achievements: [
@@ -41,7 +41,7 @@
 //     name: "Cheikh Sarr",
 //     mandate: "2023-2024",
 //     level: "L2",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "Ensemble, nous sommes plus forts",
 //     achievements: ["Renforcement de la communauté", "Initiatives de formation"],
@@ -52,7 +52,7 @@
 //     name: "Mamadou Diallo",
 //     mandate: "2022-2023",
 //     level: "M2",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "La passion avant tout",
 //     achievements: [
@@ -67,7 +67,7 @@
 //     name: "Amadou Bathieli",
 //     mandate: "2022-2023",
 //     level: "M1",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "Apprendre et partager",
 //     achievements: [
@@ -82,7 +82,7 @@
 //     name: "Daouda Ndiaye",
 //     mandate: "2021-2022",
 //     level: "M1",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "L'union fait la force",
 //     achievements: [
@@ -97,7 +97,7 @@
 //     name: "Ass Diané",
 //     mandate: "2020-2021",
 //     level: "M1",
-//     photo: "/src/assets/presidents/Ass-Diane.jpeg",
+//     photo: "/assets/presidents/Ass-Diane.jpeg",
 //     status: "past",
 //     quote: "Persévérance et détermination",
 //     achievements: [
@@ -112,7 +112,7 @@
 //     name: "Birame Ndoye",
 //     mandate: "2019-2020",
 //     level: "M1",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "Construire ensemble",
 //     achievements: [
@@ -127,7 +127,7 @@
 //     name: "Mamadou Malado Ndiaye",
 //     mandate: "2018-2019",
 //     level: "D1",
-//     photo: "/src/assets/presidents/pasDePhoto.jpg",
+//     photo: "/assets/presidents/pasDePhoto.jpg",
 //     status: "past",
 //     quote: "Le début d'une grande aventure",
 //     achievements: [
@@ -191,7 +191,7 @@ export const presidentsData: President[] = [
     name: "Prochain Président",
     mandate: "2025-2026",
     level: "???",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "future",
     quote: "L'avenir du club vous appartient...",
     achievements: ["À écrire ensemble"],
@@ -202,7 +202,7 @@ export const presidentsData: President[] = [
     name: "Abdoulaye Gaye",
     mandate: "2024-2025",
     level: "M1",
-    photo: "/src/assets/presidents/Abdoulaye-Gaye.jpg",
+    photo: "/assets/presidents/Abdoulaye-Gaye.jpg",
     status: "current",
     quote: "Innovation et excellence, notre devise !",
     achievements: [
@@ -218,7 +218,7 @@ export const presidentsData: President[] = [
     name: "Cheikh Sarr",
     mandate: "2023-2024",
     level: "L2",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "Ensemble, nous sommes plus forts",
     achievements: ["Renforcement de la communauté", "Initiatives de formation"],
@@ -229,7 +229,7 @@ export const presidentsData: President[] = [
     name: "Mamadou Diallo",
     mandate: "2022-2023",
     level: "M2",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "La passion avant tout",
     achievements: [
@@ -244,7 +244,7 @@ export const presidentsData: President[] = [
     name: "Amadou Bathieli",
     mandate: "2022-2023",
     level: "M1",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "Apprendre et partager",
     achievements: [
@@ -259,7 +259,7 @@ export const presidentsData: President[] = [
     name: "Daouda Ndiaye",
     mandate: "2021-2022",
     level: "M1",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "L'union fait la force",
     achievements: [
@@ -274,7 +274,7 @@ export const presidentsData: President[] = [
     name: "Ass Diané",
     mandate: "2020-2021",
     level: "M1",
-    photo: "/src/assets/presidents/Ass-Diane.jpeg",
+    photo: "/assets/presidents/Ass-Diane.jpeg",
     status: "past",
     quote: "Persévérance et détermination",
     achievements: [
@@ -289,7 +289,7 @@ export const presidentsData: President[] = [
     name: "Birame Ndoye",
     mandate: "2019-2020",
     level: "M1",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "Construire ensemble",
     achievements: [
@@ -304,7 +304,7 @@ export const presidentsData: President[] = [
     name: "Mamadou Malado Ndiaye",
     mandate: "2018-2019",
     level: "D1",
-    photo: "/src/assets/presidents/pasDePhoto.jpg",
+    photo: "/assets/presidents/pasDePhoto.jpg",
     status: "past",
     quote: "Le début d'une grande aventure",
     achievements: [

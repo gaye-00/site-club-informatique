@@ -19,6 +19,9 @@ COPY src ./src
 COPY index.html ./
 COPY public ./public
 
+# Copier les assets dans public pour qu'ils soient servis statiquement
+RUN cp -r src/assets public/
+
 # Builder l'app
 RUN npm run build
 
@@ -33,8 +36,11 @@ RUN npm install -g serve
 # Copier le build du stage précédent
 COPY --from=builder /app/dist ./dist
 
+# Copier la configuration serve dans dist
+COPY serve.json ./dist/
+
 # Exposer le port
 EXPOSE 5173
 
-# Démarrer le serveur
-CMD ["serve", "-s", "dist", "-l", "5173"]
+# Démarrer le serveur avec la config
+CMD ["serve", "-c", "serve.json", "-s", "dist", "-l", "5173"]

@@ -54,13 +54,13 @@ const eventsData: Event[] = [
     status: "Terminé",
     color: "from-blue-500 to-indigo-600",
     image:
-      "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",
+      "/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",
     images: [
-      "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",
-      "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0015.jpg",
-      "/src/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0047.jpg",
-      "/src/assets/journee-portes-ouvertes-2eme-journee/20251108_125730.jpg",
-      "/src/assets/journee-portes-ouvertes-2eme-journee/20251108_130549.jpg",
+      "/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0000.jpg",
+      "/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0015.jpg",
+      "/assets/journee-portes-ouvertes-1er-journee/IMG-20251110-WA0047.jpg",
+      "/assets/journee-portes-ouvertes-2eme-journee/20251108_125730.jpg",
+      "/assets/journee-portes-ouvertes-2eme-journee/20251108_130549.jpg",
     ],
   },
   {
@@ -74,12 +74,12 @@ const eventsData: Event[] = [
     participants: 45,
     status: "Terminé",
     color: "from-orange-500 to-red-600",
-    image: "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0001.jpg",
+    image: "/assets/journee-maitenance-1-edi/IMG-20251111-WA0001.jpg",
     images: [
-      "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0001.jpg",
-      "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0005.jpg",
-      "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0007.jpg",
-      "/src/assets/journee-maitenance-1-edi/IMG-20251111-WA0021.jpg",
+      "/assets/journee-maitenance-1-edi/IMG-20251111-WA0001.jpg",
+      "/assets/journee-maitenance-1-edi/IMG-20251111-WA0005.jpg",
+      "/assets/journee-maitenance-1-edi/IMG-20251111-WA0007.jpg",
+      "/assets/journee-maitenance-1-edi/IMG-20251111-WA0021.jpg",
     ],
   },
   {
@@ -93,11 +93,11 @@ const eventsData: Event[] = [
     participants: 25,
     status: "Terminé",
     color: "from-purple-500 to-pink-600",
-    image: "/src/assets/Formation_Photoshop/20251129_183442.jpg",
+    image: "/assets/Formation_Photoshop/20251129_183442.jpg",
     images: [
-      "/src/assets/Formation_Photoshop/20251129_183442.jpg",
-      "/src/assets/Formation_Photoshop/20251129_183525.jpg",
-      "/src/assets/Formation_Photoshop/20251129_202930.jpg",
+      "/assets/Formation_Photoshop/20251129_183442.jpg",
+      "/assets/Formation_Photoshop/20251129_183525.jpg",
+      "/assets/Formation_Photoshop/20251129_202930.jpg",
     ],
   },
   {
@@ -111,7 +111,7 @@ const eventsData: Event[] = [
     participants: 10,
     status: "Terminé",
     color: "from-green-500 to-emerald-600",
-    image: "/src/assets/Affiches-Evenements-Passers/bootcamp.png",
+    image: "/assets/Affiches-Evenements-Passers/bootcamp.png",
   },
   {
     id: 5,
@@ -124,7 +124,7 @@ const eventsData: Event[] = [
     participants: 100,
     status: "À venir",
     color: "from-cyan-500 to-blue-600",
-    image: "/src/assets/Affiches-Evenements-Passers/techsolidaire_journee1.png",
+    image: "/assets/Affiches-Evenements-Passers/techsolidaire_journee1.png",
   },
   {
     id: 6,
@@ -136,7 +136,7 @@ const eventsData: Event[] = [
     category: "Conférence",
     status: "Terminé",
     color: "from-violet-600 to-indigo-600",
-    image: "/src/assets/Affiches-Evenements-Passers/the_debat.png",
+    image: "/assets/Affiches-Evenements-Passers/the_debat.png",
   },
   {
     id: 7,
@@ -148,7 +148,7 @@ const eventsData: Event[] = [
     category: "Formation",
     status: "En cours",
     color: "from-yellow-500 to-orange-500",
-    image: "/src/assets/Affiches-Evenements-Passers/tuto.png",
+    image: "/assets/Affiches-Evenements-Passers/tuto.png",
   },
   {
     id: 8,
@@ -159,7 +159,7 @@ const eventsData: Event[] = [
     category: "Vie du Club",
     status: "Terminé",
     color: "from-rose-500 to-red-500",
-    image: "/src/assets/Affiches-Evenements-Passers/bach_cleub.png",
+    image: "/assets/Affiches-Evenements-Passers/bach_cleub.png",
   },
 ];
 

@@ -79,7 +79,7 @@ const Header = () => {
                   transition={{ duration: 0.6, ease: "easeInOut" }}
                 >
                   <img
-                    src="/src/assets/logo_club_info_250x250.png"
+                    src="/assets/logo_club_info_250x250.png"
                     alt="Club Info UASZ"
                     className="w-full h-full object-cover"
                   />
@@ -223,7 +223,7 @@ const Header = () => {
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 rounded-lg overflow-hidden">
                       <img
-                        src="/src/assets/logo_club_info_250x250.png"
+                        src="/assets/logo_club_info_250x250.png"
                         alt="Club Info UASZ"
                         className="w-full h-full object-cover"
                       />

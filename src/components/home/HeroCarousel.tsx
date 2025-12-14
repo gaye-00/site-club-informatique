@@ -110,7 +110,7 @@ const HeroCarousel = () => {
       rotateY: 0,
       transition: {
         duration: 0.8,
-        ease: [0.43, 0.13, 0.23, 0.96],
+        ease: "easeInOut",
       },
     },
     exit: (direction: number) => ({
@@ -120,7 +120,7 @@ const HeroCarousel = () => {
       rotateY: direction > 0 ? -45 : 45,
       transition: {
         duration: 0.8,
-        ease: [0.43, 0.13, 0.23, 0.96],
+        ease: "easeInOut",
       },
     }),
   };

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { GitBranch, Box, Code, Layers, Server } from "lucide-react";
+import { GitBranch, Code, Layers, Server } from "lucide-react";
 
 // Données de l'arbre
 const skillNodes = [

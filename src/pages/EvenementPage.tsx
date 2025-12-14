@@ -218,11 +218,9 @@ export default function EvenementPage() {
 const EventsFilter = ({
   currentFilter,
   onFilterChange,
-  counts,
 }: {
   currentFilter: string;
   onFilterChange: (f: string) => void;
-  counts: Event[];
 }) => {
   const categories = [
     "Tous",

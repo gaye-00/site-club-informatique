@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, Download, Share2 } from "lucide-react";
 import SouvenirHero from "../components/souvenir/Souvenirhero";
@@ -6,7 +6,6 @@ import MemoriesGallery from "../components/souvenir/Souvenirmemoriesgallery";
 import StatsShowcase from "../components/souvenir/Statsshowcase";
 import MemoriesWall from "../components/souvenir/Memorieswall";
 import MemoriesTimeline from "../components/souvenir/Memoriestimeline";
-import DataNexusStream from "../components/evenement/DataNexusStream";
 import HolographicSeparator from "../components/home/HolographicSeparator";
 
 // Types

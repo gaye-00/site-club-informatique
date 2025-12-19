@@ -11,6 +11,7 @@ import CallToActionSection from "../components/home/CallToActionSection";
 import PartnersSection from "../components/home/PartnersSection";
 import FAQAccordion from "../components/home/FAQAccordion";
 import HolographicSeparator from "../components/home/HolographicSeparator";
+import PresidentMessageSection from "../components/home/PresidentMessageSection";
 
 const HomePage: React.FC = () => {
   return (
@@ -20,6 +21,9 @@ const HomePage: React.FC = () => {
 
       {/* Mission du club */}
       <MissionSection />
+
+      {/* Mot du president */}
+      <PresidentMessageSection />
 
       {/* Événements passés */}
       <PastEventsHighlight />

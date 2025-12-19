@@ -144,7 +144,8 @@ const PresidentMessageSection: React.FC = () => {
                 {/* Container Image */}
                 <div className="relative w-full h-full bg-white rounded-[36px] overflow-hidden z-10 border border-gray-200 shadow-2xl">
                   <img
-                    src="/src/assets/presidents/Abdoulaye-Gaye.jpg"
+                    // src="/src/assets/presidents/Abdoulaye-Gaye.jpg"
+                    src="/assets/presidents/Abdoulaye-Gaye.jpg"
                     alt="Abdoulaye Gaye"
                     className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
                   />

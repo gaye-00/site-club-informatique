@@ -96,17 +96,6 @@ const PresidentMessageSection: React.FC = () => {
                   "
                 </p>
               </div>
-              {/* <div className="relative">
-                <Quote className="absolute -left-8 -top-8 w-20 h-20 text-primary-500/10 -z-10" />
-                <p className="text-xl md:text-2xl text-gray-300 font-medium leading-relaxed italic">
-                  "Sacrifie-toi pour ce que tu veux, sinon ce que tu veux
-                  deviendra le sacrifice. Tu veux la connaissance ?{" "}
-                  <span className="text-primary-400">
-                    Sacrifie-toi pour elle.
-                  </span>
-                  "
-                </p>
-              </div> */}
 
               <div className="flex items-center gap-6 pt-10">
                 <div className="relative">
@@ -170,7 +159,7 @@ const PresidentMessageSection: React.FC = () => {
                       </span>
                     </div>
                     <p className="text-white/80 text-xs font-mono">
-                      ID: CI-PREZ-2024-AG
+                      ID: CI-PREZ-2025-AG
                     </p>
                   </div>
                 </div>

@@ -23,13 +23,13 @@ interface Milestone {
 const ClubHistory: React.FC = () => {
   const milestones: Milestone[] = [
     {
-      year: "2018",
+      year: "2013",
       title: "La Naissance",
       description: "Fondation du Club Informatique UASZ",
       icon: Rocket,
       color: "from-gray-500 to-slate-600",
       achievements: [
-        "Création officielle du club",
+        "Samedi 26 Janvier 2013: Création officielle du club",
         "Premiers membres fondateurs",
         "Établissement de la vision",
       ],

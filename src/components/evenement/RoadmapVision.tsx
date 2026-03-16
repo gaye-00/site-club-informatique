@@ -5,7 +5,7 @@ import { Rocket, Target, Cpu, Flag, Sparkles } from "lucide-react";
 const milestones = [
   {
     id: 1,
-    year: "Q1 2025",
+    year: "Q1 2026?",
     title: "Lancement Incubateur",
     description:
       "Inauguration de notre espace dédié aux startups étudiantes. 5 projets sélectionnés pour un accompagnement intensif.",
@@ -15,7 +15,7 @@ const milestones = [
   },
   {
     id: 2,
-    year: "Q2 2025",
+    year: "Q2 2026?",
     title: "Hackathon National",
     description:
       "Le plus grand rassemblement de codeurs du Sénégal. 48h de code, 10 universités invitées, 1 objectif commun.",
@@ -25,7 +25,7 @@ const milestones = [
   },
   {
     id: 3,
-    year: "Q3 2025",
+    year: "Q3 2026?",
     title: "UASZ Tech Summit",
     description:
       "Une conférence internationale avec des experts de Google, Microsoft et Wave. Le futur de la tech se dessine ici.",
@@ -35,7 +35,7 @@ const milestones = [
   },
   {
     id: 4,
-    year: "Q4 2025",
+    year: "Q4 2026?",
     title: "Expansion Régionale",
     description:
       "Ouverture d'antennes du club dans les lycées de Ziguinchor pour former la prochaine génération dès maintenant.",
@@ -76,7 +76,7 @@ const RoadmapVision: React.FC = () => {
         >
           <Sparkles className="w-4 h-4 text-primary-400 animate-spin-slow" />
           <span className="text-gray-300 text-xs font-bold uppercase tracking-[0.2em]">
-            Vision 2025
+            Vision 2026
           </span>
         </motion.div>
         <h2 className="text-5xl md:text-7xl font-black text-white tracking-tight">
@@ -119,7 +119,7 @@ const RoadmapVision: React.FC = () => {
                     transition={{ delay: 0.5 }}
                     className={`w-2 h-2 rounded-full ${item.color.replace(
                       "text-",
-                      "bg-"
+                      "bg-",
                     )} shadow-[0_0_10px_currentColor]`}
                   />
                 </div>

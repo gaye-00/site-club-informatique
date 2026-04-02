@@ -147,13 +147,13 @@ const ClubHistory: React.FC = () => {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6">
-            6 ans d'{" "}
+            14 ans d'{" "}
             <span className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
               innovation
             </span>
           </h2>
           <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">
-            Depuis 2018, nous écrivons l'histoire de la tech à l'UASZ, une année
+            Depuis 2013, nous écrivons l'histoire de la tech à l'UASZ, une année
             à la fois
           </p>
         </motion.div>

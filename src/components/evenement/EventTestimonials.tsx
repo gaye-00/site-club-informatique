@@ -17,7 +17,7 @@ const testimonials = [
     name: "Adama Diouf",
     role: "Etudiant Master GL, membre actif",
     content:
-      "L'ambiance aux soirées Bach Club est juste géniale. C'est là que j'ai trouvé mes co-fondateurs pour notre projet de startup. Le networking est réel !",
+      "Ce qui m'a le plus marqué au sein du club informatique, c'est son renouveau, notamment à travers les nouvelles activités et les changements apportés à son fonctionnement.",
     gradient: "from-cyan-500 to-blue-500",
     delay: 0.2,
   },
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Mr. Malack",
     role: "Doctorant en Informatique",
     content:
-      "La Masterclass Photoshop n'était pas juste technique, elle était artistique. J'ai appris à donner vie à mes idées. Merci aux formateurs pour leur patience.",
+      "En tant qu'ancien ayant vu passer plusieurs bureaux du club informatique, je peux affirmer que celui-ci a accompli un travail remarquable, voire unique. J'espère que le prochain bureau fera encore davantage afin d'assurer une bonne continuité.",
     gradient: "from-amber-400 to-orange-500",
     delay: 0.4,
   },
